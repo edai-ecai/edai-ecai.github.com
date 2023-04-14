@@ -243,6 +243,11 @@ pre code {
     text-justify: inter-word;
 }
 
+span.text-highlight {
+    color: #3a56a8;
+    font-weight: 700;
+}
+
 /* Row */
 
 .row {
@@ -2231,6 +2236,7 @@ ul {
     list-style: disc;
     margin: 0 0 2.25em 0;
     padding-left: 1em;
+    /*box-sizing: inherit;*/
 }
 
 ul li {
@@ -2392,7 +2398,7 @@ ul.feature-icons li {
     padding: 0.35em 0 0 3.5em;
     position: relative;
     vertical-align: top;
-    width: 48%;
+    width: 90%;
 }
 
 ul.feature-icons li:before {
